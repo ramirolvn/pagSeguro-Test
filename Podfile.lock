@@ -1,0 +1,59 @@
+PODS:
+  - Alamofire (4.8.2)
+  - Differentiator (3.1.0)
+  - Nimble (7.3.4)
+  - RxBlocking (4.5.0):
+    - RxSwift (>= 4.4.2, ~> 4.4)
+  - RxCocoa (4.5.0):
+    - RxSwift (>= 4.4.2, ~> 4.4)
+  - RxDataSources (3.1.0):
+    - Differentiator (~> 3.0)
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - RxNimble (4.4.0):
+    - RxNimble/RxBlocking (= 4.4.0)
+  - RxNimble/Core (4.4.0):
+    - Nimble (~> 7.0)
+    - RxSwift (~> 4.2)
+  - RxNimble/RxBlocking (4.4.0):
+    - RxBlocking
+    - RxNimble/Core
+  - RxSwift (4.5.0)
+  - SDWebImage (5.0.1):
+    - SDWebImage/Core (= 5.0.1)
+  - SDWebImage/Core (5.0.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - RxCocoa
+  - RxDataSources
+  - RxNimble
+  - RxSwift
+  - SDWebImage
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Differentiator
+    - Nimble
+    - RxBlocking
+    - RxCocoa
+    - RxDataSources
+    - RxNimble
+    - RxSwift
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  Differentiator: be49ca3408f0ecfc761e4c7763d20c62be01b9ad
+  Nimble: 051e3d8912d40138fa5591c78594f95fb172af37
+  RxBlocking: 79413e4d916f44bb3e113c5b2cc059e36fe58910
+  RxCocoa: cbf70265dc65a981d4ac982e513c10cf23df24a0
+  RxDataSources: a843bad90c29817f5923ec8163f4af2de084ceb3
+  RxNimble: ba6caf0195c37fd50dd4b967624b66ff580d781a
+  RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
+  SDWebImage: 27dd2c9ea07a2252f94557c9fbb6105ee94b74c9
+
+PODFILE CHECKSUM: 90e7fe39295988faf05ba22a13ea888426a218a4
+
+COCOAPODS: 1.6.1
